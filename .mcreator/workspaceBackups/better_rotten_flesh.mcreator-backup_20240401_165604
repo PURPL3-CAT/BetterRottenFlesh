@@ -1,0 +1,139 @@
+{
+  "mod_elements": [
+    {
+      "name": "ZombieHeadRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_head_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_rotten_flesh/recipes/zombie_head_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flesh",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_rotten_flesh/models/item/flesh.json",
+          "src/main/java/net/mcreator/betterrottenflesh/item/FleshItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FleshLeatherRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh_leather_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_rotten_flesh/recipes/flesh_leather_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Preservation",
+      "type": "enchantment",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "preservation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterrottenflesh/enchantment/PreservationEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "PreserveFlesh",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "preserve_flesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterrottenflesh/procedures/PreserveFleshProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DropsRottenFlesh",
+      "type": "tag",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drops_rotten_flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/drops_rotten_flesh.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.better_rotten_flesh.flesh": "Flesh",
+      "enchantment.better_rotten_flesh.preservation": "Preservation"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "better_rotten_flesh",
+    "modName": "Better Rotten Flesh",
+    "version": "1.0.0",
+    "author": "Kster, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.betterrottenflesh",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

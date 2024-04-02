@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="better_rotten_flesh"
+version="1.2.1"
+displayName="Better Rotten Flesh"
+displayURL="https://modrinth.com/project/purpl3-cat-better-rotten-flesh/"
+logoFile="logo.png"
+credits="This mod was created using MCreator - https://mcreator.net/"
+authors="PURPL3-CAT"
+description="Adds regular flesh and makes rotten flesh more useful."
+
+[[dependencies.better_rotten_flesh]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
