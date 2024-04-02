@@ -1,4 +1,5 @@
 # BetterRottenFlesh
+Created with MCreator
 
 Adds a new flesh item. It's like rotten flesh except... not rotten. There are two ways to obtain it:
 1. Crafting any meat surrounded by 8 rotten flesh
